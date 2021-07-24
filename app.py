@@ -21,6 +21,3 @@ def tips():
 def illust(pid):
     json_result = apiApp.illust_detail(pid)
     return flask.jsonify(json_result),200
-
-
-app.run()
